@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>Hello React</title>
+	<link rel="stylesheet" href="tetrix/tetrix.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.1/react.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/JSXTransformer.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+	<script type="text/jsx;harmony=true" src="tetrix/tetrix.js" ></script>
+	<script type="text/jsx;harmony=true" src="tetrix/model.js" ></script>
+
+</head>
+<body>
+	<div id="content"></div>
+<script type="text/jsx;harmony=true" >
+$(document).ready( () => {
+	React.render(<Tetrix rows="20" cols="10" />, document.getElementById('content'));
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.tetrix {
+}
+
+.tetrix table {
+	border: solid 1px #ff0000;
+}
+
+.tetrix td {
+	height: 10px;
+	width: 10px;
+	border: none;
+}
